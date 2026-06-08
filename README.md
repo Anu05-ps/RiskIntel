@@ -1,8 +1,8 @@
-# 🛡️ FraudShield AI
+# 🛡️ RiskIntel
 
 ## Cyber Crime Intelligence & Fraud Detection Platform
 
-FraudShield AI is an end-to-end cybersecurity analytics platform that combines Cyber Crime Intelligence, Women & Children Safety Analytics, PostgreSQL-powered data management, and Machine Learning-based Fraud Detection.
+RiskIntel is an end-to-end cybersecurity analytics platform that combines Cyber Crime Intelligence, Women & Children Safety Analytics, PostgreSQL-powered data management, and Machine Learning-based Fraud Detection.
 
 ---
 
@@ -10,7 +10,7 @@ FraudShield AI is an end-to-end cybersecurity analytics platform that combines C
 
 The project analyzes cybercrime datasets across India, identifies vulnerable populations, and predicts fraudulent transactions using Machine Learning.
 
-FraudShield AI transforms raw cybercrime data into actionable intelligence through:
+RiskIntel transforms raw cybercrime data into actionable intelligence through:
 
 - Exploratory Data Analysis (EDA)
 - PostgreSQL Database Integration
