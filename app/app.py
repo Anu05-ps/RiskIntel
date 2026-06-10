@@ -408,14 +408,18 @@ def load_data():
 
     # Fallback to absolute discoveries
     if cyber_df is None:
-        csv_locations = [CURRENT_DIR / "data" / "top_states.csv", PARENT_DIR / "data" / "top_states.csv"]
-        for p in csv_locations:
-            if p.exists():
-                try:
-                    cyber_df = pd.read_csv(p)
-                    break
-                except Exception:
-                    cyber_df = None
+        csv_locations = [
+            CURRENT_DIR / "data" / "Cyber Crime In India 2020.csv",
+            PARENT_DIR / "data" / "Cyber Crime In India 2020.csv"
+        ]
+
+    for p in csv_locations:
+        if p.exists():
+            try:
+                cyber_df = pd.read_csv(p)
+                break
+            except Exception:
+                cyber_df = None
 
     vulnerable_df = None
     vulnerable_locations = [CURRENT_DIR / "data" / "vulnerable_population.csv", PARENT_DIR / "data" / "vulnerable_population.csv"]
@@ -443,7 +447,7 @@ def load_data():
 cyber_df, vulnerable_df, model = load_data()
 
 if cyber_df is None:
-    st.error("Cybercrime dataset fallback array unresolved. Verify folder placement of top_states.csv")
+    st.error("Unable to load Cyber Crime In India 2020.csv")
     st.stop()
 
 def apply_chart_theme(fig):
