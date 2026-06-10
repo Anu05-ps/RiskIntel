@@ -85,7 +85,7 @@ into a unified intelligence platform.
 
 ## Home Dashboard
 
-![Home Dashboard](screenshots/home.png)
+![Home Dashboard](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/Home.png)
 
 The Home Dashboard provides an executive-level summary of the entire platform.
 
@@ -113,7 +113,12 @@ The Home Dashboard provides an executive-level summary of the entire platform.
 
 ## Top States by Cyber Crime Cases
 
-![Top States](screenshots/top_10_cyber_crime_by_state.png)
+![Cyber Crime Dashboard](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/cybercrime1.png)
+
+![Cyber Crime Dashboard](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/cybercrime2.png)
+
+![Cyber Crime Dashboard](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/cybercrime3.png)
+![Top States](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/top%2010%20cyber%20crime%20by%20state.png)
 
 ### Key Findings
 
@@ -126,7 +131,8 @@ The Home Dashboard provides an executive-level summary of the entire platform.
 
 ## Cyber Crime Growth Analysis (2018–2020)
 
-![Growth Analysis](screenshots/cyber_crime_growth_2018_2020.png)
+![Growth Analysis](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/cyber%20crime%20growth%20in%202018-2020.png)
+
 
 ### Key Findings
 
@@ -138,7 +144,8 @@ The Home Dashboard provides an executive-level summary of the entire platform.
 
 ## Cyber Crime Correlation Analysis
 
-![Correlation Matrix](screenshots/cyber_correlation_matrix.png)
+![Correlation Matrix](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/cyber%20correlation%20matrix.png)
+
 
 ### Key Findings
 
@@ -150,7 +157,8 @@ The Home Dashboard provides an executive-level summary of the entire platform.
 
 ## Cyber Crime Motives
 
-![Cyber Crime Motives](screenshots/cyber_crime_motives.png)
+![Cyber Crime Motives](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/cyber%20crime%20motives.png)
+
 
 ### Key Findings
 
@@ -162,7 +170,7 @@ The Home Dashboard provides an executive-level summary of the entire platform.
 
 ## Fraud Hotspots by State
 
-![Fraud Motive States](screenshots/fraud_motive_by_state.png)
+![Fraud Hotspots](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/fraud%20motive%20by%20state.png)
 
 ### Key Findings
 
@@ -176,7 +184,13 @@ The Home Dashboard provides an executive-level summary of the entire platform.
 
 ## Top States by Cyber Crimes Against Women
 
-![Women Crime States](screenshots/cybercrime_against_women.png)
+![Women Dashboard](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/women%20and%20child%20safety.png)
+
+![Women Dashboard](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/women%20and%20child%20safety%20%282%29.png)
+
+![Women Dashboard](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/women%20and%20child%20safety2.png)
+
+![Women Crime States](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/cybercrime%20against%20women.png)
 
 ### Key Findings
 
@@ -188,7 +202,9 @@ The Home Dashboard provides an executive-level summary of the entire platform.
 
 ## Types of Cyber Crimes Against Women
 
-![Women Crime Types](screenshots/type_of_cyber_crime_against_women.png)
+
+![Women Crime Types](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/type%20of%20cyber%20crime%20againt%20women.png)
+
 
 ### Key Findings
 
@@ -199,8 +215,8 @@ The Home Dashboard provides an executive-level summary of the entire platform.
 ---
 
 ## Women Cybercrime Correlation Analysis
+![Women Correlation](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/women%20correlation%20matrix.png)
 
-![Women Correlation](screenshots/women_correlation_matrix.png)
 
 ### Key Findings
 
@@ -214,7 +230,10 @@ The Home Dashboard provides an executive-level summary of the entire platform.
 
 ## Top States by Cyber Crimes Against Children
 
-![Children Crime States](screenshots/child_crime_by_state.png)
+![Children Crime States](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/child%20crime%20by%20state.png)
+
+![Children Crime Types](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/crime%20category%20againt%20children.png)
+
 
 ### Key Findings
 
@@ -226,7 +245,7 @@ The Home Dashboard provides an executive-level summary of the entire platform.
 
 ## Types of Cyber Crimes Against Children
 
-![Children Crime Types](screenshots/crime_category_against_children.png)
+![Children Crime Types](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/crime%20category%20againt%20children.png)
 
 ### Key Findings
 
@@ -238,7 +257,7 @@ The Home Dashboard provides an executive-level summary of the entire platform.
 
 ## Children Cybercrime Correlation Analysis
 
-![Children Correlation](screenshots/correlation_matrix_children.png)
+![Children Correlation](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/correlation%20matrix.png)
 
 ### Key Findings
 
@@ -251,8 +270,8 @@ The Home Dashboard provides an executive-level summary of the entire platform.
 # 🛡️ Vulnerable Population Analytics
 
 ## Vulnerable Population Index
+![Vulnerability Index](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/vulnerability%20population%20index.png)
 
-![Vulnerability Index](screenshots/vulnerability_population_index.png)
 
 ### Key Findings
 
@@ -274,8 +293,7 @@ The Vulnerable Population Index helps identify regions requiring:
 
 # 📍 State Clustering Analysis
 
-![State Clusters](screenshots/crime_state_cluster.png)
-
+![State Clustering](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/crime%20state%20cluster.png)
 ### Key Findings
 
 - States naturally formed four distinct cybercrime clusters.
@@ -288,7 +306,13 @@ The Vulnerable Population Index helps identify regions requiring:
 
 ## Fraud Detection Feature Analysis
 
-![Feature Importance](screenshots/fraud_detection_features.png)
+![Fraud Dashboard](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/fraud%20detection1.png)
+
+![Fraud Dashboard](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/fraud%20detection2.png)
+
+![Feature Importance](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/fraud%20detection%20features.png)
+
+![Top Fraud Indicators](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/top%20fraud%20indicators.png)
 
 ### Top Fraud Indicators
 
@@ -310,7 +334,8 @@ The Vulnerable Population Index helps identify regions requiring:
 
 ## Confusion Matrix
 
-![Confusion Matrix](screenshots/fraud_label.png)
+![Confusion Matrix](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/fraud%20label.png)
+
 
 ### Key Findings
 
@@ -323,8 +348,7 @@ The Vulnerable Population Index helps identify regions requiring:
 
 # 🎯 Model Performance
 
-![Model Performance](screenshots/model_performance.png)
-
+![Model Performance](https://raw.githubusercontent.com/Anu05-ps/RiskIntel/main/screenshots/model%20performance.png)
 ### Random Forest Classifier
 
 | Metric | Score |
