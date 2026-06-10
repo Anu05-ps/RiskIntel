@@ -417,6 +417,23 @@ def load_data():
         if p.exists():
             try:
                 cyber_df = pd.read_csv(p)
+                cyber_df.columns = cyber_df.columns.str.strip()
+                rename_map = {
+                    "State": "state",
+                    "2020": "crime_2020",
+                    "2019": "crime_2019",
+                    "2018": "crime_2018",
+                    "Mid-Year Projected Population (in Lakhs)": "population",
+                    "Rate of Total Cyber Crimes (2020)": "crime_rate",
+                    "Chargesheeting Rate (2020)": "chargesheet_rate_2020"
+                }
+                cyber_df = cyber_df.rename(columns=rename_map)
+                if "crime_rate" not in cyber_df.columns and "Rate of Total Cyber Crimes (2020)" in cyber_df.columns:
+                    cyber_df = cyber_df.rename(columns={"Rate of Total Cyber Crimes (2020)": "crime_rate"})
+                if "crime_2020" in cyber_df.columns:
+                    cyber_df["crime_2020"] = pd.to_numeric(cyber_df["crime_2020"], errors="coerce")
+                if "crime_rate" in cyber_df.columns:
+                    cyber_df["crime_rate"] = pd.to_numeric(cyber_df["crime_rate"], errors="coerce")
                 break
             except Exception:
                 cyber_df = None
