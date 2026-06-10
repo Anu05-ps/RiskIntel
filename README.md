@@ -301,6 +301,31 @@ The Vulnerable Population Index helps identify regions requiring:
 - Clustering enabled better identification of high-risk regions.
 
 ---
+# 🗄️ PostgreSQL Integration
+
+PostgreSQL was integrated to support:
+
+- Structured data storage
+- SQL-based analytics
+- Dashboard connectivity
+- Efficient querying and reporting
+
+### Example Query
+
+```sql
+SELECT state,
+crime_2020
+FROM cybercrime_india
+ORDER BY crime_2020 DESC;
+```
+
+### Benefits
+
+- Faster analytical workflows
+- Centralized data management
+- Improved scalability
+- Efficient integration with Streamlit
+-----
 
 # 🤖 Machine Learning: Fraud Detection
 
@@ -363,33 +388,6 @@ The Vulnerable Population Index helps identify regions requiring:
 - Achieved **81% recall**, successfully identifying fraudulent activities.
 - ROC-AUC score of **0.903** demonstrates strong predictive capability.
 - Suitable for real-world fraud risk assessment scenarios.
-
----
-
-# 🗄️ PostgreSQL Integration
-
-PostgreSQL was integrated to support:
-
-- Structured data storage
-- SQL-based analytics
-- Dashboard connectivity
-- Efficient querying and reporting
-
-### Example Query
-
-```sql
-SELECT state,
-crime_2020
-FROM cybercrime_india
-ORDER BY crime_2020 DESC;
-```
-
-### Benefits
-
-- Faster analytical workflows
-- Centralized data management
-- Improved scalability
-- Efficient integration with Streamlit
 
 ---
 
