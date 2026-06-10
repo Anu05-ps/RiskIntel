@@ -405,12 +405,6 @@ page = st.sidebar.radio(
 # --------------------------------------------------------------------
 def load_data():
     cyber_df = None
-    if create_engine is not None:
-        try:
-            engine = create_engine("postgresql://postgres:Anusajeev%4028@localhost:5432/fraudshield")
-            cyber_df = pd.read_sql("SELECT * FROM cybercrime_india", engine)
-        except Exception:
-            cyber_df = None
 
     # Fallback to absolute discoveries
     if cyber_df is None:
