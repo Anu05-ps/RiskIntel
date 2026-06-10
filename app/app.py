@@ -68,7 +68,7 @@ PARENT_DIR = CURRENT_DIR.parent
 # Page configuration
 # --------------------------------------------------------------------
 st.set_page_config(
-    page_title="FraudShield",
+    page_title="RiskIntel",
     page_icon="🛡️",
     layout="wide",
 )
@@ -357,7 +357,7 @@ st.markdown(
     <div style="display:flex; align-items:center; gap:16px; padding:18px 24px; border-radius:14px; background:linear-gradient(135deg,#071528 0%,#10294b 100%); border:1px solid rgba(96,165,250,0.16); box-shadow: 0 8px 40px rgba(0, 0, 0, 0.22); backdrop-filter:blur(10px); margin-bottom:1.5rem;">
       <div style="width:44px; height:44px; border-radius:10px; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color:#ffffff; font-size:22px; box-shadow:0 6px 18px rgba(37, 99, 235, 0.28);">🛡️</div>
       <div>
-        <div style="font-size:22px; margin:0; color:#ffffff; font-weight:700; letter-spacing:-0.03em;">FraudShield</div>
+        <div style="font-size:22px; margin:0; color:#ffffff; font-weight:700; letter-spacing:-0.03em;">RiskIntel</div>
         <div style="margin:0; color:rgba(255,255,255,0.76); font-size:13px;">Cyber Crime Intelligence • Fraud Detection • Vulnerable Population Analytics</div>
         <div class="section-hero-note">Secure risk intelligence across cybercrime, fraud detection, and vulnerable population analytics — designed for executive review and rapid decisioning.</div>
       </div>
@@ -390,7 +390,7 @@ for p in logo_paths:
         except Exception:
             pass
 
-sidebar_box.title("FraudShield")
+sidebar_box.title("RiskIntel")
 sidebar_box.caption("Operational Analytics Hub")
 sidebar_box.markdown("---")
 
@@ -682,6 +682,6 @@ elif page == "Fraud Detection":
                 )
 
 st.markdown(
-    "<div class='footer-bar'>FraudShield • v1.4 • Data: 2020 national dataset • Secure analytics dashboard</div>",
+    "<div class='footer-bar'>RiskIntel • v1.4 • Data: 2020 national dataset • Secure analytics dashboard</div>",
     unsafe_allow_html=True,
 )

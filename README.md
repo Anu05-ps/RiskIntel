@@ -413,4 +413,8 @@ RiskIntel/
 Data Analytics | Data Science | Machine Learning
 
 GitHub:
+<<<<<<< HEAD
 https://github.com/Anu05-ps/RiskIntel
+=======
+https://github.com/Anu05-ps/RiskIntel
+>>>>>>> c3529d142dff0ff544bd43b58b72fcf346b85d6c
